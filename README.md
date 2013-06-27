@@ -4,6 +4,20 @@ Sudo Mode helps you easily require a password confirmation before any controller
 
 This is inspired (heavily) by [Github's implementation](https://github.com/blog/1513-introducing-github-sudo-mode).
 
+## Installation
+
+Add `sudo_mode` to your Gemfile:
+
+```ruby
+gem "sudo_mode"
+```
+
+And install:
+
+```bash
+$ bundle install
+```
+
 ## Usage
 
 ```ruby
