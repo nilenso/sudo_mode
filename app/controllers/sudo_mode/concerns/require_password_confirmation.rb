@@ -12,8 +12,8 @@ module SudoMode
       end
 
       def check_password
-        unless current_user.authenticate(params[:password])
-          redirect_to new_confirmation_path(:redirect_to => request.fullpath, :method => request.request_method)
+       unless current_user.authenticate(params[:password])
+          redirect_to sudo_mode.new_confirmation_path(:redirect_to => request.path, :method => request.request_method)
         end
       end
     end
