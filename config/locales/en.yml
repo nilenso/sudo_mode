@@ -1,0 +1,7 @@
+en:
+  sudo_mode:
+    confirmation:
+      new:
+        confirmation_heading: "Confirm your Password"
+        check_password_button: "Authorize"
+
