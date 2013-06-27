@@ -47,6 +47,7 @@ sudo_mode:
 - Requires [`has_secure_password`](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html)
 - Requires `ApplicationController` to have a `current_user` method
 - Styling for the confirmation page is not taken care of
+- All helper method calls in `application.html.erb` (and the partials it renders) must be explicitly called on `main_app`
 
 ## Credits
 
