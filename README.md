@@ -20,6 +20,16 @@ $ bundle install
 
 ## Usage
 
+##### Mount the confirmation page in your routes
+```ruby
+Foo::Application.routes.draw do
+  mount SudoMode::Engine => '/sudo' # You can replace '/sudo' with any other prefix
+  
+  # ...
+end
+```
+
+##### And pick a controller action to protect
 ```ruby
 class FooController
   require_password_confirmation_for :destroy
