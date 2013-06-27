@@ -51,4 +51,6 @@ sudo_mode:
 
 ## Credits
 
+This gem was extracted from work on [ashoka-survey-web](http://github.com/nilenso/ashoka-survey-web).
+
 [![Nilenso](https://s3.amazonaws.com/nilenso/nilenso.png)](http://nilenso.com)
