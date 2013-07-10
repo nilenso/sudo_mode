@@ -3,6 +3,7 @@
 </header>
 
 <div class="confirmation">
+  <p class="warning-message"><%= t(".warning_message") %></p>
   <%= form_tag @submit_path, :class => "confirmation-form", :method => @method do %>
     <div class="confirmation-fieldset">
       <%= label_tag :password, "Password", :class => "confirmation-label" %>
