@@ -50,6 +50,7 @@ sudo_mode:
       new:
         confirmation_heading: "Confirm your Password"
         check_password_button: "Check"
+        warning_message: "Are you sure you want to delete this?"
 ```
 
 ## Limitations

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sudo_mode (0.0.1)
+    sudo_mode (1.0.0)
       rails (~> 3.2)
 
 GEM
